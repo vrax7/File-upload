@@ -1,0 +1,19 @@
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+body{
+    background-color: #fff;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.darkmode{
+    background-color: black;
+    color: azure;
+}
+
